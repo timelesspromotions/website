@@ -8,10 +8,11 @@
     <%= partial("components/meta/social") %>
     <%= partial("components/meta/analytics") %>
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <%= stylesheet_link_tag :normalize %>
     <%= stylesheet_link_tag :site %>
     <title><%= data.meta.social.title %></title>
   </head>
-  <body>
+  <body class="ma-0r">
     <%= yield %>
     <%= javascript_include_tag :site %>
   </body>
