@@ -1,0 +1,18 @@
+<%# Config %>
+<%# Margin %>
+<% range = ((total + 1)/2).ceil - 1 %>
+<% if index <= range %>
+  <% margin = "mb-4r-ns" %>
+<% else %>
+  <% margin = "" %>
+<% end %>
+<%# End %>
+<article class="d-inline_block d-block-ns f-left-ns w-16r w-50p-ns mr-2r mr-0r-ns <%= margin %> ph-1r-m ph-2r-l">
+  <a class="d-block ar ar-film mb-1r mb-2r-l bs-alpha lh-0" href="<%= film.href %>">
+    <img class="ar-object" src="<%= film.image.src %>" alt="<%= film.image.alt %>">
+  </a>
+  <header class="ta-center">
+    <h1 class="ma-0r mb-0_25r ff-lato fw-300 fs-1_125r c-black"><%= film.title %></h1>
+    <h2 class="ma-0r ff-lato fw-300 fs-1_125r c-gray"><%= film.category %></h2>
+  </header>
+</article>
