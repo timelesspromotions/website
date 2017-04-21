@@ -1,7 +1,27 @@
 <%# Config %>
 <% page = data.content.home %>
 <%# End %>
-<main class="mw-65r mh-auto">
+<main class="mw-69r mh-auto">
   <%# Component: Hero %>
-  <%= partial("components/content/hero", :locals => { :hero => page.hero }) %>
+  <%= partial("components/content/hero",
+      :locals => {
+        :hero => page.hero
+      })
+  %>
+  <%# List: Cards %>
+  <section class="clearfix mw-65r ws-no_wrap ox-auto oy-hidden os-touch mh-auto mb-8r pt-2r ph-2r ph-1r-m ph-0r-l">
+    <%# Config %>
+    <% total = page.films.length - 1 %>
+    <%# End %>
+    <% page.films.each_with_index do |film, index| %>
+      <%# Component: Film %>
+      <%= partial("components/content/film",
+          :locals => {
+            :film => film,
+            :index => index,
+            :total => total
+          })
+      %>
+    <% end %>
+  </section>
 </main>
