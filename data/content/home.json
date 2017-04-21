@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "subheader": "Lorem ipsum dolor sit amet consectetur adipiscing seit. In questa parole maecenas rex. Maecenas rex in questa plex la adamantia fragomen.",
+    "icons": [
+      {
+        "src": "/images/email.svg",
+        "href": "mailto:timelesspromotionsllc@gmail.com",
+        "alt": "Email Icon",
+        "target": false
+      },
+      {
+        "src": "/images/youtube.svg",
+        "href": "https://www.youtube.com/channel/UCaBZsgHq61g0XI0K7kaXxIg",
+        "alt": "YouTube Icon",
+        "target": true
+      },
+      {
+        "src": "/images/twitter.svg",
+        "href": "https://twitter.com/timeless_promo",
+        "alt": "Twitter Icon",
+        "target": true
+      }
+    ]
+  }
+}
