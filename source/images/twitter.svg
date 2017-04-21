@@ -2,10 +2,8 @@
 <title>twitter</title>
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(9 1245)" figma:type="canvas">
-<g id="twitter" figma:type="frame">
-<g id="Vector" figma:type="vector">
-<use xlink:href="#path0_fill" transform="translate(-9 -1245)"/>
-</g>
+<g id="twitter" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-9 -1245)" fill="#333333"/>
 </g>
 </g>
 <defs>

@@ -3,12 +3,16 @@
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(57 1244)" figma:type="canvas">
 <g id="email" figma:type="vector">
-<use xlink:href="#path0_fill" transform="translate(-57 -1244)"/>
-<use xlink:href="#path1_fill" transform="translate(-57 -1244)"/>
+<use xlink:href="#path0_fill" transform="translate(-57 -1244)" fill="#333333"/>
+<use xlink:href="#path1_fill" transform="translate(-57 -1244)" fill="#333333"/>
+<use xlink:href="#path2_fill" transform="translate(-57 -1244)" fill="#333333"/>
+<use xlink:href="#path3_fill" transform="translate(-57 -1244)" fill="#333333"/>
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 7.66401 7.53699L 8 7.8418L 8.33599 7.53699L 16 0.58252L 16 12L 0 12L 0 0.58252L 7.66401 7.53699Z"/>
-<path id="path1_fill" d="M 0.8461 0L 15.1539 0L 8 6.49146L 0.8461 0Z"/>
+<path id="path0_fill" d="M 7.64645 8.35352L 8 8.70715L 8.35355 8.35352L 10 6.70715L 15.2929 12L 0.707108 12L 6 6.70715L 7.64645 8.35352Z"/>
+<path id="path1_fill" d="M 0 11.2928L 5.29289 6L 0 0.707153L 0 11.2928Z"/>
+<path id="path2_fill" d="M 0.707108 0L 6.35355 5.64648L 8 7.29285L 9.64645 5.64648L 15.2929 0L 0.707108 0Z"/>
+<path id="path3_fill" d="M 16 0.707153L 10.7071 6L 16 11.2928L 16 0.707153Z"/>
 </defs>
 </svg>
