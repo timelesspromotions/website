@@ -21,6 +21,7 @@
 /* Padding */
 .pa-0r { padding: 0rem; }
 .pv-8r { padding-top: 8rem; padding-bottom: 8rem; }
+.ph-0r { padding-right: 0rem; padding-left: 0rem; }
 .ph-1r { padding-right: 1rem; padding-left: 1rem; }
 .ph-2r { padding-right: 2rem; padding-left: 2rem; }
 .pt-2r { padding-top: 2rem; }
@@ -72,9 +73,11 @@ html { -webkit-font-smoothing: antialiased; }
 .oy-hidden { overflow-y: hidden; }
 /* Functions */
 .ttf-cubic_bezier { -webkit-transition-timing-function: cubic-bezier(.25,.8,.25,1); transition-timing-function: cubic-bezier(.25,.8,.25,1); }
+.ttf-ease_in_out { -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
 /* Durations */
-.td-1s { -webkit-transition-duration: 1s; transition-duration: 1s; }
 .td-0_3s { -webkit-transition-duration: 0.3s; transition-duration: 0.3s; }
+.td-1s { -webkit-transition-duration: 1s; transition-duration: 1s; }
+.td-3s { -webkit-transition-duration: 3s; transition-duration: 3s; }
 /* Properties */
 .tp-all { -webkit-transition-property: all; transition-property: all; }
 .tp-transform { -webkit-transition-property: transform; transition-property: transform; }
@@ -85,8 +88,10 @@ html { -webkit-font-smoothing: antialiased; }
 .o-0_5 { opacity: 0.5; }
 .o-1 { opacity: 1; }
 /* Transform */
+.t-translateX0 { -webkit-transform: translateX(0); transform: translateX(0); }
+.t-translateY0 { -webkit-transform: translateY(0); transform: translateY(0); }
+.t-translateX4r { -webkit-transform: translateX(4rem); transform: translateX(4rem); }
 .t-translateY-0_5r { -webkit-transform: translateY(-0.5rem); transform: translateY(-0.5rem); }
-.t-translateY4r { -webkit-transform: translateY(4rem); transform: translateY(4rem); }
 .t-translateY0 { -webkit-transform: translateY(0); transform: translateY(0); }
 .t-translateY100p { -webkit-transform: translateY(100%); transform: translateY(100%); }
 /*
@@ -101,7 +106,10 @@ html { -webkit-font-smoothing: antialiased; }
   .w-50p-ns { width: 50%; }
   /* Margin */
   .mr-0r-ns { margin-right: 0rem; }
-  .mb-4r-ns { margin-bottom: 4rem; } }
+  .mb-4r-ns { margin-bottom: 4rem; }
+  /* Transform */
+  .t-translateY0-ns { -webkit-transform: translateY(0); transform: translateY(0); }
+  .t-translateY4r-ns { -webkit-transform: translateY(4rem); transform: translateY(4rem); }
 }
 /*
   MEDIA: Medium
