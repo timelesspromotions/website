@@ -28,14 +28,12 @@
       <% end %>
       <%# End %>
       <li class="d-inline_block">
-        <a class="d-table_cell va-middle h-2r <%= padding %>">
+        <a data-interaction="fade" class="ttf-cubic_bezier td-0_3s tp-opacity o-1 d-table_cell va-middle h-2r <%= padding %>" href="<%= icon.href %>" <% if icon.target %>target="_blank"<% end %>>
           <%# Component: Icon %>
           <%= partial("components/content/icon",
               :locals => {
                 :src => icon.src,
-                :href => icon.href,
                 :alt => icon.alt,
-                :target => icon.target
               })
           %>
         </a>
