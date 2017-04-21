@@ -1,14 +1,14 @@
-<svg width="16" height="9" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<svg width="16" height="12" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
 <title>email</title>
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(57 1244)" figma:type="canvas">
-<g id="email" figma:type="frame">
-<g id="Subtract" figma:type="vector-operation">
+<g id="email" figma:type="vector">
 <use xlink:href="#path0_fill" transform="translate(-57 -1244)"/>
-</g>
+<use xlink:href="#path1_fill" transform="translate(-57 -1244)"/>
 </g>
 </g>
 <defs>
-<path id="path0_fill" fill-rule="evenodd" d="M 7.7 6.40002L 8 6.625L 8.3 6.40002L 15 1.375L 15 9L 1 9L 1 1.375L 7.7 6.40002ZM 2.16667 1L 13.8333 1L 8 5.375L 2.16667 1Z"/>
+<path id="path0_fill" d="M 7.66401 7.53699L 8 7.8418L 8.33599 7.53699L 16 0.58252L 16 12L 0 12L 0 0.58252L 7.66401 7.53699Z"/>
+<path id="path1_fill" d="M 0.8461 0L 15.1539 0L 8 6.49146L 0.8461 0Z"/>
 </defs>
 </svg>
