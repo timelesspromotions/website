@@ -9,9 +9,9 @@
 .mw-45r { max-width: 45rem; }
 .mw-69r { max-width: 69rem; }
 /* Margin */
-.ma-0r { margin: 0rem; }
+.ma-0r { margin: 0; }
 .mh-auto { margin-right: auto; margin-left: auto; }
-.mr-0r { margin-right: 0rem; }
+.mr-0r { margin-right: 0; }
 .mr-2r { margin-right: 2rem; }
 .mb-0_25r { margin-bottom: 0.25rem; }
 .mb-1r { margin-bottom: 1rem; }
@@ -20,9 +20,9 @@
 .mb-4r { margin-bottom: 4rem; }
 .mb-8r { margin-bottom: 8rem; }
 /* Padding */
-.pa-0r { padding: 0rem; }
+.pa-0r { padding: 0; }
 .pv-8r { padding-top: 8rem; padding-bottom: 8rem; }
-.ph-0r { padding-right: 0rem; padding-left: 0rem; }
+.ph-0r { padding-right: 0; padding-left: 0; }
 .ph-1r { padding-right: 1rem; padding-left: 1rem; }
 .ph-2r { padding-right: 2rem; padding-left: 2rem; }
 .pt-2r { padding-top: 2rem; }
@@ -79,7 +79,7 @@ html { -webkit-font-smoothing: antialiased; }
 .ttf-cubic_bezier { -webkit-transition-timing-function: cubic-bezier(.25,.8,.25,1); transition-timing-function: cubic-bezier(.25,.8,.25,1); }
 .ttf-ease_in_out { -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; }
 /* Durations */
-.td-0_3s { -webkit-transition-duration: 0.3s; transition-duration: 0.3s; }
+.td-0_3s { -webkit-transition-duration: .3s; transition-duration: .3s; }
 .td-1s { -webkit-transition-duration: 1s; transition-duration: 1s; }
 .td-2s { -webkit-transition-duration: 2s; transition-duration: 2s; }
 .td-3s { -webkit-transition-duration: 3s; transition-duration: 3s; }
@@ -90,7 +90,7 @@ html { -webkit-font-smoothing: antialiased; }
 .tp-opacity { -webkit-transition-property: opacity; transition-property: opacity; }
 /* Opacity */
 .o-0 { opacity: 0; }
-.o-0_5 { opacity: 0.5; }
+.o-0_5 { opacity: .5; }
 .o-1 { opacity: 1; }
 /* Transform */
 .t-translateX0 { -webkit-transform: translateX(0); transform: translateX(0); }
@@ -110,7 +110,7 @@ html { -webkit-font-smoothing: antialiased; }
   /* Width */
   .w-50p-ns { width: 50%; }
   /* Margin */
-  .mr-0r-ns { margin-right: 0rem; }
+  .mr-0r-ns { margin-right: 0; }
   .mb-4r-ns { margin-bottom: 4rem; }
   .mb-8r-ns { margin-bottom: 8rem; }
   /* Padding */
@@ -134,6 +134,6 @@ html { -webkit-font-smoothing: antialiased; }
   /* Margin */
   .mb-2r-l { margin-bottom: 2rem; }
   /* Padding */
-  .ph-0r-l { padding-right: 0rem; padding-left: 0rem; }
+  .ph-0r-l { padding-right: 0; padding-left: 0; }
   .ph-2r-l { padding-right: 2rem; padding-left: 2rem; }
 }
