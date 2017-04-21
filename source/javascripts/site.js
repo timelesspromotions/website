@@ -12,6 +12,20 @@ $pickups.forEach(function($pickup){
     addClasses(this,["t-translateY0", "bs-alpha"]);
   });
 });
+//  Fade interaction
+const $fades = document.querySelectorAll('[data-interaction="fade"]');
+$fades.forEach(function($fade){
+  //  Mouse over
+  $fade.addEventListener('mouseover', function(){
+    removeClasses(this, ["o-1"]);
+    addClasses(this, ["o-0_5"]);
+  });
+  //  Mouse out
+  $fade.addEventListener('mouseout', function(){
+    removeClasses(this, ["o-0_5"]);
+    addClasses(this, ["o-1"]);
+  });
+});
 //  Remove list of classes from selected element
 function removeClasses($element, classes) {
   for (var i = 0; i < classes.length; i++) {
