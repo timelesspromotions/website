@@ -2,30 +2,30 @@
   "hero": {
     "brand": {
       "logo": {
-        "src": "/images/logo.svg",
+        "src": "/images/brand/logo.svg",
         "alt": "Timeless Promotions LLC: Infinity Logo"
       },
       "type": {
-        "src": "/images/type.svg",
+        "src": "/images/brand/type.svg",
         "alt": "Timeless Promotions LLC"
       }
     },
     "subheader": "Lorem ipsum dolor sit amet consectetur adipiscing seit. In questa parole maecenas rex. Maecenas rex in questa plex la adamantia fragomen.",
     "icons": [
       {
-        "src": "/images/email.svg",
+        "src": "/images/icons/email.svg",
         "href": "mailto:timelesspromotionsllc@gmail.com",
         "alt": "Email Icon",
         "target": false
       },
       {
-        "src": "/images/youtube.svg",
+        "src": "/images/icons/youtube.svg",
         "href": "https://www.youtube.com/channel/UCaBZsgHq61g0XI0K7kaXxIg",
         "alt": "YouTube Icon",
         "target": true
       },
       {
-        "src": "/images/twitter.svg",
+        "src": "/images/icons/twitter.svg",
         "href": "https://twitter.com/timeless_promo",
         "alt": "Twitter Icon",
         "target": true
@@ -35,7 +35,7 @@
   "films": [
     {
       "image": {
-        "src": "/images/placeholder.png",
+        "src": "/images/films/placeholder.png",
         "alt": "Lorem ipsum dolor sit amet"
       },
       "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
@@ -44,7 +44,7 @@
     },
     {
       "image": {
-        "src": "/images/placeholder.png",
+        "src": "/images/films/placeholder.png",
         "alt": "Lorem ipsum dolor sit amet"
       },
       "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
@@ -53,7 +53,7 @@
     },
     {
       "image": {
-        "src": "/images/placeholder.png",
+        "src": "/images/films/placeholder.png",
         "alt": "Lorem ipsum dolor sit amet"
       },
       "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
@@ -62,7 +62,7 @@
     },
     {
       "image": {
-        "src": "/images/placeholder.png",
+        "src": "/images/films/placeholder.png",
         "alt": "Lorem ipsum dolor sit amet"
       },
       "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
