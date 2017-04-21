@@ -1,0 +1,20 @@
+/* Max Width */
+.mw-45r { max-width: 45rem; }
+.mw-65r { max-width: 65rem; }
+/* Margin */
+.ma-0r { margin: 0rem; }
+.mh-auto { margin-right: auto; margin-left: auto; }
+/* Text Align */
+.ta-center { text-align: center; }
+/* Font Family */
+.lato { font-family: 'Lato', sans-serif; }
+/* Font Weight */
+.fw-300 { font-weight: 300; }
+/* Font Size */
+.fs-1_125r { font-size: 1.125rem; }
+/* Line Height */
+.lh-1_75 { line-height: 1.75; }
+/* Color */
+.c-black { color: #000000; }
+/* Font Smoothing */
+html { -webkit-font-smoothing: antialiased; }
