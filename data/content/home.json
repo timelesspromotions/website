@@ -31,5 +31,43 @@
         "target": true
       }
     ]
-  }
+  },
+  "films": [
+    {
+      "image": {
+        "src": "/images/placeholder.png",
+        "alt": "Lorem ipsum dolor sit amet"
+      },
+      "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
+      "title": "Hustle PHX",
+      "category": "Promotion"
+    },
+    {
+      "image": {
+        "src": "/images/placeholder.png",
+        "alt": "Lorem ipsum dolor sit amet"
+      },
+      "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
+      "title": "Dreams Won't Wait",
+      "category": "Short Film"
+    },
+    {
+      "image": {
+        "src": "/images/placeholder.png",
+        "alt": "Lorem ipsum dolor sit amet"
+      },
+      "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
+      "title": "Hustle PHX",
+      "category": "Promotion"
+    },
+    {
+      "image": {
+        "src": "/images/placeholder.png",
+        "alt": "Lorem ipsum dolor sit amet"
+      },
+      "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
+      "title": "Dreams Won't Wait",
+      "category": "Short Film"
+    }
+  ]
 }
