@@ -1,17 +1,44 @@
-<header class="ta-center">
+<header class="ta-center pv-8r">
   <%# Component: Logo %>
-  <%= partial("components/content/logo") %>
+  <%= partial("components/content/brand",
+      :locals => {
+        :logo => hero.brand.logo,
+        :type => hero.brand.type
+      })
+  %>
   <%# Component: Subheader %>
-  <%= partial("components/content/subheader", :locals => { :text => hero.subheader }) %>
+  <%= partial("components/content/subheader",
+      :locals => {
+        :text => hero.subheader
+      })
+  %>
   <%# List: Icons %>
-  <ul>
+  <ul class="ma-0r pa-0r lst-none">
     <%# Config %>
     <% total = hero.icons.length - 1 %>
     <%# End %>
     <% hero.icons.each_with_index do |icon, index| %>
-      <li>
-        <%# Component: Icon %>
-        <%= partial("components/content/icon", :locals => { :icon => icon, :index => index, :total => total }) %>
+      <%# Config %>
+      <% if index === 0 %>
+        <% padding = "pr-1r" %>
+      <% elsif index === total %>
+        <% padding = "pl-1r" %>
+      <% else %>
+        <% padding = "ph-1r" %>
+      <% end %>
+      <%# End %>
+      <li class="d-inline_block">
+        <a class="d-table_cell va-middle h-2r <%= padding %>">
+          <%# Component: Icon %>
+          <%= partial("components/content/icon",
+              :locals => {
+                :src => icon.src,
+                :href => icon.href,
+                :alt => icon.alt,
+                :target => icon.target
+              })
+          %>
+        </a>
       </li>
     <% end %>
   </ul>
