@@ -82,6 +82,7 @@ html { -webkit-font-smoothing: antialiased; }
 .tp-opacity { -webkit-transition-property: opacity; transition-property: opacity; }
 /* Opacity */
 .o-0 { opacity: 0; }
+.o-0_5 { opacity: 0.5; }
 .o-1 { opacity: 1; }
 /* Transform */
 .t-translateY-0_5r { -webkit-transform: translateY(-0.5rem); transform: translateY(-0.5rem); }
