@@ -2,6 +2,17 @@
   <%# Component: Logo %>
   <%= partial("components/content/logo") %>
   <%# Component: Subheader %>
-  <%= partial("components/content/subheader") %>
+  <%= partial("components/content/subheader", :locals => { :text => hero.subheader }) %>
   <%# List: Icons %>
+  <ul>
+    <%# Config %>
+    <% total = hero.icons.length - 1 %>
+    <%# End %>
+    <% hero.icons.each_with_index do |icon, index| %>
+      <li>
+        <%# Component: Icon %>
+        <%= partial("components/content/icon", :locals => { :icon => icon, :index => index, :total => total }) %>
+      </li>
+    <% end %>
+  </ul>
 </header>
