@@ -1,0 +1,32 @@
+<svg width="16" height="12" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>youtube</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-39 1245)" figma:type="canvas">
+<g id="youtube" figma:type="frame">
+<g id="Fill 1" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(45.3469 -1241.58)" fill="#FFFFFE"/>
+</g>
+<g id="Fill 2" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(49.138 -1239.17)" fill="#DEDED9"/>
+</g>
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Clip 4" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(39 -1245)"/>
+</g>
+</mask>
+<g id="Fill 3" mask="url(#mask0_outline)" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(45.3469 -1241.58)" fill="#DEDED9"/>
+</g>
+<g id="Fill 5" mask="url(#mask0_outline)" figma:type="vector-operation">
+<use xlink:href="#path4_fill" transform="translate(38.9989 -1245)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 4.79423L 4.32352 2.40547L 0 0L 0 4.79423"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0.000407288 0.294419L 0 0.294135L 0.532357 0L 0.000407288 0.294419"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 12L 0 0L 16 0L 16 12L 0 12Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 3.79116 2.6996L 0 0L 4.32352 2.40547L 3.79116 2.6996"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 6.34871 8.21367L 6.34798 3.41943L 10.6715 5.8249L 6.34871 8.21367ZM 15.8412 2.58897C 15.8412 2.58897 15.6848 1.41315 15.205 0.895352C 14.5966 0.215757 13.9146 0.212383 13.6018 0.172609C 11.3627 2.33147e-15 8.00393 0 8.00393 0L 7.99698 0C 7.99698 0 4.63829 2.33147e-15 2.39911 0.172609C 2.08633 0.212383 1.40456 0.215757 0.795888 0.895352C 0.316134 1.41315 0.160017 2.58897 0.160017 2.58897C 0.160017 2.58897 0 3.96978 0 5.35057L 0 6.64506C 0 8.02583 0.160017 9.40662 0.160017 9.40662C 0.160017 9.40662 0.316134 10.5825 0.795888 11.1003C 1.40456 11.7799 2.2041 11.7584 2.56021 11.8296C 3.8403 11.9605 8.00047 12.001 8.00047 12.001C 8.00047 12.001 11.3627 11.9956 13.6018 11.823C 13.9146 11.7832 14.5966 11.7799 15.205 11.1003C 15.6848 10.5825 15.8412 9.40662 15.8412 9.40662C 15.8412 9.40662 16.0009 8.02583 16.0009 6.64506L 16.0009 5.35057C 16.0009 3.96978 15.8412 2.58897 15.8412 2.58897L 15.8412 2.58897Z"/>
+</defs>
+</svg>

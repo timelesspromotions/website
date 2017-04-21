@@ -1,0 +1,14 @@
+<svg width="16" height="9" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>email</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(57 1244)" figma:type="canvas">
+<g id="email" figma:type="frame">
+<g id="Subtract" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(-57 -1244)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 7.7 6.40002L 8 6.625L 8.3 6.40002L 15 1.375L 15 9L 1 9L 1 1.375L 7.7 6.40002ZM 2.16667 1L 13.8333 1L 8 5.375L 2.16667 1Z"/>
+</defs>
+</svg>
