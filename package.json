@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Timeless Promotions LLC website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelesspromotions/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timelesspromotions/website/issues"
+  },
+  "homepage": "https://github.com/timelesspromotions/website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^2.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}
