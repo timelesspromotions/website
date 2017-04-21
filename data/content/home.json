@@ -1,5 +1,15 @@
 {
   "hero": {
+    "brand": {
+      "logo": {
+        "src": "/images/logo.svg",
+        "alt": "Timeless Promotions LLC: Infinity Logo"
+      },
+      "type": {
+        "src": "/images/type.svg",
+        "alt": "Timeless Promotions LLC"
+      }
+    },
     "subheader": "Lorem ipsum dolor sit amet consectetur adipiscing seit. In questa parole maecenas rex. Maecenas rex in questa plex la adamantia fragomen.",
     "icons": [
       {
