@@ -1,0 +1,12 @@
+{
+  "title": "Timeless Promotions LLC",
+  "description": "Video Production company based in San Antonio, Texas.",
+  "image": {
+    "og": "https://www.timelesspromotionsllc.com/images/meta/opengraph.png",
+    "twitter": "https://www.timelesspromotionsllc.com/images/meta/twitter.png"
+  },
+  "url": "https://www.timelesspromotionsllc.com",
+  "site": "@timeless_promo",
+  "type": "website",
+  "card": "summary"
+}
