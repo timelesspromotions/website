@@ -10,7 +10,10 @@
         "alt": "Timeless Promotions LLC"
       }
     },
-    "subheader": "Lorem ipsum dolor sit amet consectetur adipiscing seit. In questa parole maecenas rex. Maecenas rex in questa plex la adamantia fragomen.",
+    "subheader": {
+      "quote": "\"Time is an illusion. Lunchtime doubly so.\"",
+      "author": "Douglas Adams"
+    },
     "icons": [
       {
         "src": "/images/icons/email.svg",
@@ -36,34 +39,43 @@
     {
       "image": {
         "src": "/images/films/placeholder.png",
-        "alt": "Lorem ipsum dolor sit amet"
+        "alt": "Nascar Monterrey, Mexico 2017 Commercial"
       },
-      "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
-      "title": "Hustle PHX",
-      "category": "Promotion"
+      "href": "https://www.youtube.com/watch?v=goYpHs8cMXg&t=4s",
+      "title": "Nascar",
+      "category": "Commercial"
     },
     {
       "image": {
         "src": "/images/films/placeholder.png",
-        "alt": "Lorem ipsum dolor sit amet"
+        "alt": "Motorcyclist, Painter, Yoga Aficionado and Businessman Meet"
       },
-      "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
-      "title": "Dreams Won't Wait",
+      "href": "https://www.youtube.com/watch?v=zHr6O3F2JuM&t=3s",
+      "title": "Novo Nati",
       "category": "Short Film"
     },
     {
       "image": {
         "src": "/images/films/placeholder.png",
-        "alt": "Lorem ipsum dolor sit amet"
+        "alt": "A salesman goes through the monotonous routine of everyday life"
+      },
+      "href": "https://www.youtube.com/watch?v=8T1bVoeuf6U",
+      "title": "Salesman",
+      "category": "Short Film"
+    },
+    {
+      "image": {
+        "src": "/images/films/hustle-phx.jpg",
+        "alt": "Promotional video for start up incubator"
       },
       "href": "https://www.youtube.com/watch?v=tyP9AfvNmUQ",
-      "title": "Hustle PHX",
-      "category": "Promotion"
+      "title": "Hustle Phx",
+      "category": "Commercial"
     },
     {
       "image": {
         "src": "/images/films/placeholder.png",
-        "alt": "Lorem ipsum dolor sit amet"
+        "alt": "A kid discovers a surreal place in an abandoned alley"
       },
       "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
       "title": "Dreams Won't Wait",

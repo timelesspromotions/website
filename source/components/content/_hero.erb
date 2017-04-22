@@ -9,7 +9,8 @@
   <%# Component: Subheader %>
   <%= partial("components/content/subheader",
       :locals => {
-        :text => hero.subheader
+        :quote => hero.subheader.quote,
+        :author => hero.subheader.author
       })
   %>
   <%# List: Icons %>
@@ -20,11 +21,11 @@
     <% hero.icons.each_with_index do |icon, index| %>
       <%# Config %>
       <% if index === 0 %>
-        <% padding = "pr-1r" %>
+        <% padding = "pr-2r" %>
       <% elsif index === total %>
-        <% padding = "pl-1r" %>
+        <% padding = "pl-2r" %>
       <% else %>
-        <% padding = "ph-1r" %>
+        <% padding = "ph-2r" %>
       <% end %>
       <%# End %>
       <li class="d-inline_block">
