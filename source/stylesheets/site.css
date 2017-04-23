@@ -23,11 +23,13 @@
 .mb-8r { margin-bottom: 8rem; }
 /* Padding */
 .pa-0r { padding: 0; }
+.pv-3r { padding-top: 3rem; padding-bottom: 3rem; }
 .pv-8r { padding-top: 8rem; padding-bottom: 8rem; }
 .ph-0r { padding-right: 0; padding-left: 0; }
 .ph-1r { padding-right: 1rem; padding-left: 1rem; }
 .ph-2r { padding-right: 2rem; padding-left: 2rem; }
 .pt-2r { padding-top: 2rem; }
+.pt-3r { padding-top: 3rem; }
 .pt-8r { padding-top: 8rem; }
 .pr-1r { padding-right: 1rem; }
 .pr-2r { padding-right: 2rem; }
