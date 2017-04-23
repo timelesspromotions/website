@@ -43,8 +43,10 @@
 .fw-300 { font-weight: 300; }
 .fw-400 { font-weight: 400; }
 /* Font Size */
+.fs-0_75r { font-size: 0.75rem; }
 .fs-1r { font-size: 1rem; }
 .fs-1_125r { font-size: 1.125rem; }
+.fs-1_5r { font-size: 1.5rem; }
 .fs-2r { font-size: 2rem; }
 .fs-3r { font-size: 3rem; }
 /* Font Style */
@@ -71,8 +73,8 @@ html { -webkit-font-smoothing: antialiased; }
 /* Position */
 .p-relative { position: relative; }
 .p-absolute { position: absolute; }
-.b-2r { bottom: 2rem; }
-.l-2r { left: 2rem; }
+.b-1r { bottom: 1rem; }
+.l-1r { left: 1rem; }
 /* Z-Index */
 .zi-1 { z-index: 1; }
 .zi-2 { z-index: 2; }
@@ -130,6 +132,9 @@ html { -webkit-font-smoothing: antialiased; }
   .d-block-ns { display: block; }
   /* Float */
   .f-left-ns { float: left; }
+  /* Position */
+  .b-2r-ns { bottom: 2rem; }
+  .l-2r-ns { left: 2rem; }
   /* Width */
   .w-50p-ns { width: 50%; }
   /* Margin */
@@ -138,6 +143,9 @@ html { -webkit-font-smoothing: antialiased; }
   .mb-8r-ns { margin-bottom: 8rem; }
   /* Padding */
   .pv-8r-ns { padding-top: 8rem; padding-bottom: 8rem; }
+  /* Font Size */
+  .fs-1r-ns { font-size: 1rem; }
+  .fs-3r-ns { font-size: 3rem; }
   /* Transform */
   .t-translateY0-ns { -webkit-transform: translateY(0); transform: translateY(0); }
   .t-translateY4r-ns { -webkit-transform: translateY(4rem); transform: translateY(4rem); }
