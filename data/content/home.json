@@ -11,7 +11,7 @@
       }
     },
     "subheader": {
-      "quote": "\"Time is an illusion. Lunchtime doubly so.\"",
+      "quote": "Time is an illusion. Lunchtime doubly so.",
       "author": "Douglas Adams"
     },
     "icons": [
@@ -38,7 +38,7 @@
   "films": [
     {
       "image": {
-        "src": "/images/films/placeholder.png",
+        "src": "/images/films/nascar.jpg",
         "alt": "Nascar Monterrey, Mexico 2017 Commercial"
       },
       "href": "https://www.youtube.com/watch?v=goYpHs8cMXg&t=4s",
@@ -47,7 +47,7 @@
     },
     {
       "image": {
-        "src": "/images/films/placeholder.png",
+        "src": "/images/films/novo-nati.jpg",
         "alt": "Motorcyclist, Painter, Yoga Aficionado and Businessman Meet"
       },
       "href": "https://www.youtube.com/watch?v=zHr6O3F2JuM&t=3s",
@@ -56,7 +56,7 @@
     },
     {
       "image": {
-        "src": "/images/films/placeholder.png",
+        "src": "/images/films/the-salesman.jpg",
         "alt": "A salesman goes through the monotonous routine of everyday life"
       },
       "href": "https://www.youtube.com/watch?v=8T1bVoeuf6U",
@@ -74,7 +74,7 @@
     },
     {
       "image": {
-        "src": "/images/films/placeholder.png",
+        "src": "/images/films/dreams-wont-wait.jpg",
         "alt": "A kid discovers a surreal place in an abandoned alley"
       },
       "href": "https://www.youtube.com/watch?v=o9HGh21mC6c",
