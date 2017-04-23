@@ -41,7 +41,7 @@
         "src": "/images/films/nascar.jpg",
         "alt": "Nascar Monterrey, Mexico 2017 Commercial"
       },
-      "href": "https://www.youtube.com/watch?v=goYpHs8cMXg&t=4s",
+      "href": "https://www.youtube.com/watch?v=goYpHs8cMXg",
       "title": "Nascar",
       "category": "Commercial"
     },
@@ -50,7 +50,7 @@
         "src": "/images/films/novo-nati.jpg",
         "alt": "Motorcyclist, Painter, Yoga Aficionado and Businessman Meet"
       },
-      "href": "https://www.youtube.com/watch?v=zHr6O3F2JuM&t=3s",
+      "href": "https://www.youtube.com/watch?v=zHr6O3F2JuM&t",
       "title": "Novo Nati",
       "category": "Short Film"
     },
