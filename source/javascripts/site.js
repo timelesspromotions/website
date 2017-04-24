@@ -26,20 +26,6 @@ $fades.forEach(function($fade){
     addClasses(this, ["o-1"]);
   });
 });
-//  Page load animations
-const $hero = document.querySelector('[data-load="hero"]');
-const $films = document.querySelectorAll('[data-load="film"]');
-window.addEventListener('load', function(){
-  //  Fade-in $hero
-  removeClasses($hero, ["o-0"]);
-  addClasses($hero, ["o-1"]);
-  //  Attach event listener when $hero is finished fading in
-  $hero.addEventListener('transitionend', function(){
-    $films.forEach(function($film, index){
-      delayedFade($film, index);
-    });
-  });
-});
 //  Remove list of classes from selected element
 function removeClasses($element, classes) {
   for (var i = 0; i < classes.length; i++) {
@@ -51,10 +37,4 @@ function addClasses($element, classes) {
   for (var i = 0; i < classes.length; i++) {
     $element.classList.add(classes[i]);
   }
-}
-//  Delayed fade-ins
-function delayedFade($element, index) {
-  $element.setAttribute('style', 'transition-delay: ' + ((index+1)*0.15) + 's;');
-  removeClasses($element, ["o-0", "t-translateX4r", "t-translateY4r-ns"]);
-  addClasses($element, ["o-1", "t-translateX0", "t-translateY0-ns"]);
 }
