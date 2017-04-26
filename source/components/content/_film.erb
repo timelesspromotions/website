@@ -9,9 +9,9 @@
 <%# End %>
 <article class="d-inline_block d-block f-left-ns w-16r w-50p-ns mr-2r mr-0r-ns <%= margin_bottom %> ph-0r ph-1r-m ph-2r-l">
   <a data-interaction="pickup" class="ttf-cubic_bezier td-0_3s tp-all t-translateY0 p-relative d-block bs-alpha" href="<%= film.href %>">
-    <figure class="zi-1 ar ar-film ma-0r lh-0">
-      <img class="ar-object" src="<%= film.image.src %>" alt="<%= film.image.alt %>">
-    </figure>
+    <picture class="d-block zi-1 ar ar-film ma-0r lh-0">
+      <img class="ar-object" srcset="<%= film.image.src %>" src="<%= film.image.src %>" alt="<%= film.image.alt %>">
+    </picture>
     <header class="p-absolute zi-2 b-1r l-1r b-2r-ns l-2r-ns">
       <h1 class="ma-0r mb-0_5r ff-lato fw-300 fs-1_5r fs-3r-ns c-white"><%= film.title %></h1>
       <h2 class="ma-0r ff-lato fw-400 fs-0_75r fs-1r-ns ls-0_5r tt-uppercase c-white"><%= film.category %></h2>
